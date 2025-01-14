@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="stylep.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> K.Himasree</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="indexp.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">K.Himasree</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="profile.jpg" alt="Himasree profile picture"class="profile-pic"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">K.Himasree</h1>
+        <p class="section__text__p2">Welcome to my Portfolio!!</p>
+      <div class="social-icons">
+        <a href="https://github.com/himasree23" class="text-cyan-600" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com/in/k-himasree-789382294/" class="text-cyan-600"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:himasreekongara@gmail.com" class="text-cyan-600"><i class="fa-duotone fa-regular fa-envelope"></i></a>
+    </div>
+    </div>
+      
+  </section>
+    <footer>
+      <p>Copyright &#169; 2024 Himasree. All Rights Reserved.</p>
+     </footer>
+     <script src="script.js"></script>
+  </body>
+</html>
